@@ -512,7 +512,7 @@ while keep_going:
                 if ev.key == pygame.K_p:
                     paused = False
                     
-    #The updation of all Groups as well as the blitting of all Surfaces.                
+    #The updating of all Groups as well as the blitting of all Surfaces.                
     Background()
     Foreground()    
     player.draw(screen)
